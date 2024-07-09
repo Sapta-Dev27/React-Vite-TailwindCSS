@@ -1,0 +1,11 @@
+.footer { 
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer span { 
+  margin: 15px 15px;
+}
