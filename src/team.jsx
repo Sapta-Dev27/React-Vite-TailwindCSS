@@ -2,6 +2,7 @@ import Saptarshi from './assests/Saptarshi.jpg'
 import Logo from './assests/DEVx AVES.png'
 import Sujay from './assests/Sujay Dey.jpg'
 import Anirban from './assests/Anirban.png'
+import Priyobrata from './assests/Priyobrata.png'
 
 const people = [
   {
@@ -63,7 +64,7 @@ export default function Example7() {
           {people2.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
-                <img alt="" src={Logo} className="h-16 w-16 rounded-full" />
+                <img alt="" src={Priyobrata} className="h-16 w-16 rounded-full" />
                 <div>
                   <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                   <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
