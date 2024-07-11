@@ -1,6 +1,6 @@
 import Saptarshi from './assests/Saptarshi.jpg'
 import Logo from './assests/DEVx AVES.png'
-import Sujay from './assests./Sujay Dey.jpg'
+import Sujay from './assests/Sujay Dey.jpg'
 
 const people = [
   {
